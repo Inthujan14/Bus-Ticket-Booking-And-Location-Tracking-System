@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/destop"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Shana Travels"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/textView222"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Jaffna"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/textView333"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="077 922 9692"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="55dp"
+        android:src="@drawable/sutha" />
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Successfully Booked "
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"/>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:textSize="25sp"-->
+        <!--android:gravity="center"/>-->
+    <!---->
+</LinearLayout>
+</RelativeLayout>

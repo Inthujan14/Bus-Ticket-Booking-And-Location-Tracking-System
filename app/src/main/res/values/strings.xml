@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Booking</string>
+    <string name="map_key" translatable="false">AIzaSyCu9GWIdZoDplS4tbFa9BcIXi9NIKzkaTk</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_bus_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location">Map</string>
+
+
+    <string-array name="Bus_names">
+        <item>ஐயனார் எக்ஸ்பிரஸ்</item>
+        <item>மஹாமாரி எக்ஸ்பிரஸ்</item>
+        <item>அம்மன் எக்ஸ்பிரஸ்</item>
+        <item>ராஜேஸ்வரி எக்ஸ்பிரஸ்</item>
+        <item>நாகபூசணி எக்ஸ்பிரஸ்</item>
+        <item>மஹாலட்சுமி எக்ஸ்பிரஸ்</item>
+        <item>சிவன் எக்ஸ்பிரஸ்</item>
+        <item>கண்ணகி எக்ஸ்பிரஸ்</item>
+    </string-array>
+
+    <array name="Bus_images">
+        <item>@drawable/bus1</item>
+        <item>@drawable/bus2</item>
+        <item>@drawable/bus3</item>
+        <item>@drawable/bus4</item>
+        <item>@drawable/bus5</item>
+        <item>@drawable/bus6</item>
+        <item>@drawable/bus3</item>
+        <item>@drawable/bus5</item>
+    </array>
+
+    <string-array name="Bus_routes">
+        <item> யாழ்ப்பாணம்-கொழும்பு </item>
+        <item> யாழ்ப்பாணம்-திருகோணமலை </item>
+        <item> யாழ்ப்பாணம்-மட்டக்களப்பு </item>
+        <item> யாழ்ப்பாணம்-கண்டி </item>
+        <item> கொழும்பு-யாழ்ப்பாணம் </item>
+        <item> திருகோணமலை-யாழ்ப்பாணம் </item>
+        <item> மட்டக்களப்பு-யாழ்ப்பாணம் </item>
+        <item> கண்டி-யாழ்ப்பாணம் </item>
+    </string-array>
+
+    <string-array name="Bus_time">
+        <item> புறப்படும் நேரம் : 9.00PM </item>
+        <item> புறப்படும் நேரம் : 8.00PM </item>
+        <item> புறப்படும் நேரம் : 7.00PM </item>
+        <item> புறப்படும் நேரம் : 6.00PM </item>
+        <item> புறப்படும் நேரம் : 7.00AM </item>
+        <item> புறப்படும் நேரம் : 8.00AM </item>
+        <item> புறப்படும் நேரம் : 9.00AM </item>
+        <item> புறப்படும் நேரம் : 10.00AM </item>
+    </string-array>
+    <string name="title_activity_point">PointActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>
+

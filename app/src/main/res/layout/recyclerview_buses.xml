@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <ImageView
+            android:id="@+id/busImage"
+            android:layout_width="132dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/priya" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_marginLeft="140dp"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+
+          <TextView
+          android:id="@+id/text_view_busName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Suva Travels"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+          <TextView
+          android:id="@+id/text_view_busNumber"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="BusNumber: BHE 9870"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+          <TextView
+          android:id="@+id/text_view_date"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Date: 14/04/2019"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+          <TextView
+          android:id="@+id/text_view_from"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="From: Jaffna"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+          <TextView
+          android:id="@+id/text_view_to"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="To: Colombo"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+          <TextView
+          android:id="@+id/text_view_condition"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bus Condition: A/C Sleepers"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

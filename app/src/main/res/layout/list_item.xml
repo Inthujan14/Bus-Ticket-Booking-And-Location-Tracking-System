@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/busImage"
+        android:layout_width="132dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/man" />
+
+    <TextView
+        android:id="@+id/busName"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="0dp"
+        android:paddingLeft="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/busRoute"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/busName"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/busTime"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:paddingRight="0dp"
+        android:paddingLeft="20dp"
+        android:layout_alignBottom="@+id/busImage"
+        android:layout_alignParentEnd="true"
+        android:text="TextView" />
+</RelativeLayout>

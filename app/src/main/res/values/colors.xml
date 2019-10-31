@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#ffffff</color>
+    <color name="colorAccent">#ed1162</color>
+    <color name="dargray">#ee522f</color>
+    <color name="inthu">#e614be</color>
+    <color name="suva">#003333</color>
+    <color name="i">#00BCD4</color>
+    <color name="n">#E5F09D</color>
+    <color name="t">#FF7936</color>
+    <color name="h">#108783</color>
+    <color name="u">#25A89F</color>
+    <color name="j">#A8A2A2</color>
+    <color name="a">#29FF86</color>
+    <color name="d">#108783</color>
+    <color name="q">#F7E7BB</color>
+    <color name="w">#FFCCCC</color>
+    <color name="priya">#87C6E2</color>
+    <color name="thusha">#BBEBE7</color>
+    <color name="niro">#B9F1BC</color>
+</resources>
